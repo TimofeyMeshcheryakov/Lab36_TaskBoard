@@ -15,14 +15,14 @@ public class AppDbContext : DbContext {
                 Id = 1,
                 Title = "Изучить ASP.NET Core",
                 Description = "Контроллеры, маршруты, middleware",
-                IsComplered = true,
+                IsCompleted = true,
                 CreatedAt = new DateTime(2026, 1, 1, 0, 0, 0, DateTimeKind.Utc)
             },
             new TaskItem {
                 Id = 2,
                 Title = "Подключить SQLite",
                 Description = "EF Core, миграции, DbContext",
-                IsComplered = true,
+                IsCompleted = true,
                 CreatedAt = new DateTime(2026, 1, 2, 0, 0, 0, DateTimeKind.Utc)
             },
 
@@ -30,14 +30,14 @@ public class AppDbContext : DbContext {
                 Id = 3,
                 Title = "Написать фронтенд",
                 Description = "HTML, CSS, JavaScript, fecth",
-                IsComplered = false,
+                IsCompleted = false,
                 CreatedAt = new DateTime(2026, 1, 3, 0, 0, 0, DateTimeKind.Utc)
             },
             new TaskItem {
                 Id = 4,
                 Title = "Сдать итоговый проект",
                 Description = "Показать преподавателю работающее приложение",
-                IsComplered = false,
+                IsCompleted = false,
                 CreatedAt = new DateTime(2026, 1, 4, 0, 0, 0, DateTimeKind.Utc)
             }
         );
